@@ -1,0 +1,152 @@
+[
+  {
+    "id": "q01",
+    "question": "Why can a chunk that is too short or too long make retrieval less effective?",
+    "type": "conceptual",
+    "relevant_chunk_ids": [
+      "e0cfdf6e131a02e92d94267d674f2d2c"
+    ]
+  },
+  {
+    "id": "q02",
+    "question": "Why is it important to test whether a backup can actually be restored?",
+    "type": "conceptual",
+    "relevant_chunk_ids": [
+      "e5ad8b0910af3c04bc30cb72050d0158"
+    ]
+  },
+  {
+    "id": "q03",
+    "question": "Why should a cache have an expiration or invalidation strategy?",
+    "type": "conceptual",
+    "relevant_chunk_ids": [
+      "6d0f7fba66688b6fd99b892c20e3278c"
+    ]
+  },
+  {
+    "id": "q04",
+    "question": "Why should an experiment record results even when they do not support the original expectation?",
+    "type": "conceptual",
+    "relevant_chunk_ids": [
+      "823438e09913110e9ae3782562bd0131"
+    ]
+  },
+  {
+    "id": "q05",
+    "question": "How can a search system find documents that discuss the same idea even when they do not use exactly the same words?",
+    "type": "paraphrase",
+    "relevant_chunk_ids": [
+      "58a2a51bdf02c7dc071573a3dbe247b8"
+    ]
+  },
+  {
+    "id": "q06",
+    "question": "What details about a digital file help people locate it more easily?",
+    "type": "paraphrase",
+    "relevant_chunk_ids": [
+      "798bde7bcb210170691ff70c2fb6ba1a",
+      "7ce59aa4431fcaea17e351eb2596dbb2"
+    ]
+  },
+  {
+    "id": "q07",
+    "question": "What can happen if neighbouring text sections repeat too much of the same content?",
+    "type": "paraphrase",
+    "relevant_chunk_ids": [
+      "e0cfdf6e131a02e92d94267d674f2d2c"
+    ]
+  },
+  {
+    "id": "q08",
+    "question": "How can a team make it easier for a future developer to understand why a setting was chosen?",
+    "type": "paraphrase",
+    "relevant_chunk_ids": [
+      "ed7f92fa7486e9e933800ed21c1ef645",
+      "343d8561c51b1bf32e32672b201fe212",
+      "4cb8fa165a540f4bf7626592f6c0db71",
+      "42f899f94b15430cb86d258731c6fb51",
+      "c663b2229f9355c6f638e6a8ec3b7c72",
+      "c863c223fc0616ed3112e9e643756665",
+      "72c0e6540c134a2eb799ce5db621b0b7",
+      "798bde7bcb210170691ff70c2fb6ba1a",
+      "7796b8d8d52798819624c6f0b3ca8922",
+      "c7bab1e4a51aa20aa5b95e5a3b20e202",
+      "38a936a5a01918444a4c096ac90fc0df",
+      "96ac4d43d96ecfd934ddd0cfea211e99",
+      "40ef43ddce52a10714ed8d07fc2f31e4",
+      "2b69ca68495daa1f5c5fbe0cffa9dbab",
+      "729916d96bbd159fbaa4b6382a3d97f1"
+    ]
+  },
+  {
+    "id": "q09",
+    "question": "What does the term 'hybrid search' mean in the document?",
+    "type": "exact_term",
+    "relevant_chunk_ids": [
+      "58a2a51bdf02c7dc071573a3dbe247b8"
+    ]
+  },
+  {
+    "id": "q10",
+    "question": "Which term describes information such as a document's title, author, date, language, and page number?",
+    "type": "exact_term",
+    "relevant_chunk_ids": [
+      "798bde7bcb210170691ff70c2fb6ba1a",
+      "7ce59aa4431fcaea17e351eb2596dbb2"
+    ]
+  },
+  {
+    "id": "q11",
+    "question": "What is the term for dividing a long document into smaller sections before indexing it?",
+    "type": "exact_term",
+    "relevant_chunk_ids": [
+      "e0cfdf6e131a02e92d94267d674f2d2c"
+    ]
+  },
+  {
+    "id": "q12",
+    "question": "What does the document call a separate copy of information kept to recover from loss or accidental deletion?",
+    "type": "exact_term",
+    "relevant_chunk_ids": [
+      "e5ad8b0910af3c04bc30cb72050d0158"
+    ]
+  },
+  {
+    "id": "q13",
+    "question": "Compare keyword search, semantic search, and hybrid search, including what information each method uses to find documents.",
+    "type": "multi_chunk",
+    "relevant_chunk_ids": [
+      "58a2a51bdf02c7dc071573a3dbe247b8"
+    ]
+  },
+  {
+    "id": "q14",
+    "question": "Compare ordinary storage and backup, and explain what a dependable backup plan needs to specify.",
+    "type": "multi_chunk",
+    "relevant_chunk_ids": [
+      "e5ad8b0910af3c04bc30cb72050d0158"
+    ]
+  },
+  {
+    "id": "q15",
+    "question": "What practices does the document recommend for evaluating an approach or experiment and recording the conclusions?",
+    "type": "multi_chunk",
+    "relevant_chunk_ids": [
+      "823438e09913110e9ae3782562bd0131"
+    ]
+  },
+  {
+    "id": "q16",
+    "question": "What exact percentage of a household's annual energy use comes from heating and cooling?",
+    "type": "unanswerable",
+    "relevant_chunk_ids": [],
+    "note": "The document mentions a substantial share but gives no exact percentage; evaluate separately from standard Recall@K."
+  },
+  {
+    "id": "q17",
+    "question": "Who is the named original creator of the software library discussed in the document?",
+    "type": "unanswerable",
+    "relevant_chunk_ids": [],
+    "note": "The provided results do not establish a named software library creator; evaluate separately from standard Recall@K."
+  }
+]

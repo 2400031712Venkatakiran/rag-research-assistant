@@ -1,0 +1,87 @@
+[
+  {
+    "id": "q01",
+    "type": "conceptual",
+    "question": "Why can a chunk that is too short or too long make retrieval less effective?"
+  },
+  {
+    "id": "q02",
+    "type": "conceptual",
+    "question": "Why is it important to test whether a backup can actually be restored?"
+  },
+  {
+    "id": "q03",
+    "type": "conceptual",
+    "question": "Why should a cache have an expiration or invalidation strategy?"
+  },
+  {
+    "id": "q04",
+    "type": "conceptual",
+    "question": "Why should an experiment record results even when they do not support the original expectation?"
+  },
+  {
+    "id": "q05",
+    "type": "paraphrase",
+    "question": "How can a search system find documents that discuss the same idea even when they do not use exactly the same words?"
+  },
+  {
+    "id": "q06",
+    "type": "paraphrase",
+    "question": "What details about a digital file help people locate it more easily?"
+  },
+  {
+    "id": "q07",
+    "type": "paraphrase",
+    "question": "What can happen if neighbouring text sections repeat too much of the same content?"
+  },
+  {
+    "id": "q08",
+    "type": "paraphrase",
+    "question": "How can a team make it easier for a future developer to understand why a setting was chosen?"
+  },
+  {
+    "id": "q09",
+    "type": "exact_term",
+    "question": "What does the term 'hybrid search' mean in the document?"
+  },
+  {
+    "id": "q10",
+    "type": "exact_term",
+    "question": "Which term describes information such as a document's title, author, date, language, and page number?"
+  },
+  {
+    "id": "q11",
+    "type": "exact_term",
+    "question": "What is the term for dividing a long document into smaller sections before indexing it?"
+  },
+  {
+    "id": "q12",
+    "type": "exact_term",
+    "question": "What does the document call a separate copy of information kept to recover from loss or accidental deletion?"
+  },
+  {
+    "id": "q13",
+    "type": "multi_chunk",
+    "question": "Compare keyword search, semantic search, and hybrid search, including what information each method uses to find documents."
+  },
+  {
+    "id": "q14",
+    "type": "multi_chunk",
+    "question": "Compare ordinary storage and backup, and explain what a dependable backup plan needs to specify."
+  },
+  {
+    "id": "q15",
+    "type": "multi_chunk",
+    "question": "What practices does the document recommend for evaluating an approach or experiment and recording the conclusions?"
+  },
+  {
+    "id": "q16",
+    "type": "unanswerable",
+    "question": "What exact percentage of a household's annual energy use comes from heating and cooling?"
+  },
+  {
+    "id": "q17",
+    "type": "unanswerable",
+    "question": "Who is the named original creator of the software library discussed in the document?"
+  }
+]

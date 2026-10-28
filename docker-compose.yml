@@ -1,0 +1,15 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file: .env
+    environment:
+      CHROMA_DIR: /data/chroma
+      DOCUMENTS_DIR: /documents
+    volumes:
+      - chroma_data:/data/chroma   # persistent vector store
+      - ./documents:/documents     # drop PDFs here
+
+volumes:
+  chroma_data:
