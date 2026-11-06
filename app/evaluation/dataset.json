@@ -1,152 +1,238 @@
 [
   {
     "id": "q01",
-    "question": "Why can a chunk that is too short or too long make retrieval less effective?",
-    "type": "conceptual",
+    "type": "exact_term",
+    "question": "Which HTTP request field specifies the operation the client asks the server to perform?",
     "relevant_chunk_ids": [
-      "e0cfdf6e131a02e92d94267d674f2d2c"
+      "be204368ec8acabfbeda27816d812174",
+      "6abd91975114d5fa6d7976fed57cf057"
     ]
   },
   {
     "id": "q02",
-    "question": "Why is it important to test whether a backup can actually be restored?",
-    "type": "conceptual",
+    "type": "confusable_exact_term",
+    "question": "Which header tells a client which response media types it can process, rather than describing the media type of the current message body?",
     "relevant_chunk_ids": [
-      "e5ad8b0910af3c04bc30cb72050d0158"
+      "2fc1a475294702b5081b0fbf696958e1", "be204368ec8acabfbeda27816d812174"
     ]
   },
   {
     "id": "q03",
-    "question": "Why should a cache have an expiration or invalidation strategy?",
-    "type": "conceptual",
+    "type": "near_miss",
+    "question": "What is the difference between proving who a caller is and deciding whether that caller may access a resource?",
     "relevant_chunk_ids": [
-      "6d0f7fba66688b6fd99b892c20e3278c"
+      "2fc1a475294702b5081b0fbf696958e1"
     ]
   },
   {
     "id": "q04",
-    "question": "Why should an experiment record results even when they do not support the original expectation?",
-    "type": "conceptual",
+    "type": "exact_term",
+    "question": "Which MRS error code represents a policy denial after the caller's identity has already been established?",
     "relevant_chunk_ids": [
-      "823438e09913110e9ae3782562bd0131"
+      "2fc1a475294702b5081b0fbf696958e1",
+      "78b9d6defb07a5b9121db68d1fad3508"
     ]
   },
   {
     "id": "q05",
-    "question": "How can a search system find documents that discuss the same idea even when they do not use exactly the same words?",
-    "type": "paraphrase",
+    "type": "conceptual",
+    "question": "What mechanism lets a client safely retry a create-like request without unintentionally creating the same job twice?",
     "relevant_chunk_ids": [
-      "58a2a51bdf02c7dc071573a3dbe247b8"
+      "dcbf0533a12bbba6441a979692a7d0d3",
+      "50ec9e2fdf7b5a894bf7541e4c92cbbd"
     ]
   },
   {
     "id": "q06",
-    "question": "What details about a digital file help people locate it more easily?",
-    "type": "paraphrase",
+    "type": "confusable_exact_term",
+    "question": "Which identifier connects log entries across services but does not stop duplicate execution?",
     "relevant_chunk_ids": [
-      "798bde7bcb210170691ff70c2fb6ba1a",
-      "7ce59aa4431fcaea17e351eb2596dbb2"
+      "dcbf0533a12bbba6441a979692a7d0d3","50ec9e2fdf7b5a894bf7541e4c92cbbd"
     ]
   },
   {
     "id": "q07",
-    "question": "What can happen if neighbouring text sections repeat too much of the same content?",
-    "type": "paraphrase",
+    "type": "zero_overlap_paraphrase",
+    "question": "What descriptive information helps organize and filter a record without being the record's main substantive content?",
     "relevant_chunk_ids": [
-      "e0cfdf6e131a02e92d94267d674f2d2c"
+      "2da9f841ede3bc0755d4e8a139e4c70a",
+      "798bde7bcb210170691ff70c2fb6ba1a"
     ]
   },
   {
     "id": "q08",
-    "question": "How can a team make it easier for a future developer to understand why a setting was chosen?",
-    "type": "paraphrase",
+    "type": "near_miss",
+    "question": "How does a controlled topic vocabulary differ from a flexible label that users can attach freely?",
     "relevant_chunk_ids": [
-      "ed7f92fa7486e9e933800ed21c1ef645",
-      "343d8561c51b1bf32e32672b201fe212",
-      "4cb8fa165a540f4bf7626592f6c0db71",
-      "42f899f94b15430cb86d258731c6fb51",
-      "c663b2229f9355c6f638e6a8ec3b7c72",
-      "c863c223fc0616ed3112e9e643756665",
-      "72c0e6540c134a2eb799ce5db621b0b7",
-      "798bde7bcb210170691ff70c2fb6ba1a",
-      "7796b8d8d52798819624c6f0b3ca8922",
-      "c7bab1e4a51aa20aa5b95e5a3b20e202",
-      "38a936a5a01918444a4c096ac90fc0df",
-      "96ac4d43d96ecfd934ddd0cfea211e99",
-      "40ef43ddce52a10714ed8d07fc2f31e4",
-      "2b69ca68495daa1f5c5fbe0cffa9dbab",
-      "729916d96bbd159fbaa4b6382a3d97f1"
+      "87fe90ed4f3ccab30dabeb7673c15cd3"
     ]
   },
   {
     "id": "q09",
-    "question": "What does the term 'hybrid search' mean in the document?",
     "type": "exact_term",
+    "question": "What does NOT_COLLECTED mean, and why must it not be treated as a measured zero?",
     "relevant_chunk_ids": [
-      "58a2a51bdf02c7dc071573a3dbe247b8"
+      "87fe90ed4f3ccab30dabeb7673c15cd3"
     ]
   },
   {
     "id": "q10",
-    "question": "Which term describes information such as a document's title, author, date, language, and page number?",
-    "type": "exact_term",
+    "type": "multi_chunk",
+    "question": "What information describes where a record originated, and what separate concept describes the ordered processing steps it passed through?",
     "relevant_chunk_ids": [
-      "798bde7bcb210170691ff70c2fb6ba1a",
-      "7ce59aa4431fcaea17e351eb2596dbb2"
+      "96c7b4824046f702773206771a3f05b2"
     ]
   },
   {
     "id": "q11",
-    "question": "What is the term for dividing a long document into smaller sections before indexing it?",
     "type": "exact_term",
+    "question": "In BM25, which parameter controls the strength of document-length normalization?",
     "relevant_chunk_ids": [
-      "e0cfdf6e131a02e92d94267d674f2d2c"
+      "fd089699b85957a53de177189161b8b1"
     ]
   },
   {
     "id": "q12",
-    "question": "What does the document call a separate copy of information kept to recover from loss or accidental deletion?",
-    "type": "exact_term",
+    "type": "confusable_exact_term",
+    "question": "Which ranking method combines positions from lexical and semantic result lists without directly adding their raw scores?",
     "relevant_chunk_ids": [
-      "e5ad8b0910af3c04bc30cb72050d0158"
+      "74f297596d038a284161219dcf53c110"
     ]
   },
   {
     "id": "q13",
-    "question": "Compare keyword search, semantic search, and hybrid search, including what information each method uses to find documents.",
-    "type": "multi_chunk",
+    "type": "zero_overlap_paraphrase",
+    "question": "Why can a passage with a high vector similarity score still be an incorrect result for a user's information need?",
     "relevant_chunk_ids": [
-      "58a2a51bdf02c7dc071573a3dbe247b8"
+      "74f297596d038a284161219dcf53c110"
     ]
   },
-  {
+   {
     "id": "q14",
-    "question": "Compare ordinary storage and backup, and explain what a dependable backup plan needs to specify.",
-    "type": "multi_chunk",
+    "type": "confusable_exact_term",
+    "question": "How does MRS distinguish a per-minute request-rate limit from a monthly usage quota, and which response code represents each condition?",
     "relevant_chunk_ids": [
-      "e5ad8b0910af3c04bc30cb72050d0158"
+      "07b0d4a1d686711e743e413aa45d266b"
     ]
   },
   {
     "id": "q15",
-    "question": "What practices does the document recommend for evaluating an approach or experiment and recording the conclusions?",
     "type": "multi_chunk",
+    "question": "Which evaluation measures reward finding relevant passages, and which one specifically rewards finding the first relevant passage early?",
     "relevant_chunk_ids": [
-      "823438e09913110e9ae3782562bd0131"
+      "39de5e869d4f6c4422ad5c05c930726e", "9c429fee7927791fcc67e844b4562544"
     ]
   },
   {
     "id": "q16",
-    "question": "What exact percentage of a household's annual energy use comes from heating and cooling?",
-    "type": "unanswerable",
-    "relevant_chunk_ids": [],
-    "note": "The document mentions a substantial share but gives no exact percentage; evaluate separately from standard Recall@K."
+    "type": "zero_overlap_paraphrase",
+    "question": "What evaluation bias can occur when human reviewers judge only the passages found by one retrieval system?",
+    "relevant_chunk_ids": [
+      "9c429fee7927791fcc67e844b4562544",
+      "ec441b6a4d62d5418fe41138b39f4cbd", "39de5e869d4f6c4422ad5c05c930726e"
+    ]
   },
   {
     "id": "q17",
-    "question": "Who is the named original creator of the software library discussed in the document?",
+    "type": "conceptual",
+    "question": "What must remain unchanged when comparing two retrieval methods so that a metric difference can be attributed to the methods?",
+    "relevant_chunk_ids": [
+      "ec441b6a4d62d5418fe41138b39f4cbd"
+    ]
+  },
+  {
+    "id": "q18",
+    "type": "exact_term",
+    "question": "What does RPO measure for a recovery plan?",
+    "relevant_chunk_ids": [
+      "caad3aba9919edd73d30e7a35ee9bea1"
+    ]
+  },
+  {
+    "id": "q19",
+    "type": "confusable_exact_term",
+    "question": "Which recovery objective describes the maximum acceptable service restoration time rather than the acceptable amount of lost data?",
+    "relevant_chunk_ids": [
+      "caad3aba9919edd73d30e7a35ee9bea1"
+    ]
+  },
+  {
+    "id": "q20",
+    "type": "near_miss",
+    "question": "Why is maintaining multiple live copies not sufficient protection against accidental deletion or logical corruption?",
+    "relevant_chunk_ids": [
+      "58080162751ed9563e1cf08e29600ced"
+    ]
+  },
+  {
+    "id": "q21",
+    "type": "exact_term",
+    "question": "Which MRS backup policy identifier specifies the weekly full backup and six-hour incremental schedule?",
+    "relevant_chunk_ids": [
+      "58080162751ed9563e1cf08e29600ced",
+      "78b9d6defb07a5b9121db68d1fad3508"
+    ]
+  },
+  {
+    "id": "q22",
+    "type": "zero_overlap_paraphrase",
+    "question": "What operational measurement captures how long a task sits waiting before a worker starts it?",
+    "relevant_chunk_ids": [
+      "5b66a99f012db47632552d7045b8346e"
+    ]
+  },
+  {
+    "id": "q23",
+    "type": "confusable_exact_term",
+    "question": "Which metric measures execution duration, as distinct from time spent waiting in the queue?",
+    "relevant_chunk_ids": [
+      "5b66a99f012db47632552d7045b8346e"
+    ]
+  },
+  {
+    "id": "q24",
+    "type": "near_miss",
+    "question": "What is the difference between a record of a security-relevant action and a message written to help engineers debug runtime behavior?",
+    "relevant_chunk_ids": [
+      "cc0e76989fc29debe96ace6990af3065",
+      "37763e99fda474dc8a2de4b55193acb9"
+    ]
+  },
+  {
+    "id": "q25",
+    "type": "multi_chunk",
+    "question": "How can a team verify both that an exported file has not changed and that it came from a trusted signer?",
+    "relevant_chunk_ids": [
+      "972e1b93c69ef148ce3333177657cf75"
+    ]
+  },
+  {
+    "id": "q26",
+    "type": "exact_term",
+    "question": "Which MRS response code indicates that a request exceeded the per-key request-frequency limit?",
+    "relevant_chunk_ids": [
+      "07b0d4a1d686711e743e413aa45d266b"
+    ]
+  },
+  {
+    "id": "q27",
+    "type": "confusable_exact_term",
+    "question": "How does structural schema validation differ from checking whether a value makes sense under the business rules?",
+    "relevant_chunk_ids": [
+      "8b4c6676f1e46ba7ebb49d09ae2dbfb8"
+    ]
+  },
+  {
+    "id": "q28",
     "type": "unanswerable",
-    "relevant_chunk_ids": [],
-    "note": "The provided results do not establish a named software library creator; evaluate separately from standard Recall@K."
+    "question": "What commercial cloud provider hosts the Meridian Research Service?",
+    "relevant_chunk_ids": []
+  },
+  {
+    "id": "q29",
+    "type": "unanswerable",
+    "question": "Who is the chief executive officer of the Meridian Research Service?",
+    "relevant_chunk_ids": []
   }
 ]
+

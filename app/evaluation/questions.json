@@ -1,87 +1,137 @@
 [
   {
     "id": "q01",
-    "type": "conceptual",
-    "question": "Why can a chunk that is too short or too long make retrieval less effective?"
+    "type": "exact_term",
+    "question": "Which HTTP request field specifies the operation the client asks the server to perform?"
   },
   {
     "id": "q02",
-    "type": "conceptual",
-    "question": "Why is it important to test whether a backup can actually be restored?"
+    "type": "confusable_exact_term",
+    "question": "Which header tells a client which response media types it can process, rather than describing the media type of the current message body?"
   },
   {
     "id": "q03",
-    "type": "conceptual",
-    "question": "Why should a cache have an expiration or invalidation strategy?"
+    "type": "near_miss",
+    "question": "What is the difference between proving who a caller is and deciding whether that caller may access a resource?"
   },
   {
     "id": "q04",
-    "type": "conceptual",
-    "question": "Why should an experiment record results even when they do not support the original expectation?"
+    "type": "exact_term",
+    "question": "Which MRS error code represents a policy denial after the caller's identity has already been established?"
   },
   {
     "id": "q05",
-    "type": "paraphrase",
-    "question": "How can a search system find documents that discuss the same idea even when they do not use exactly the same words?"
+    "type": "conceptual",
+    "question": "What mechanism lets a client safely retry a create-like request without unintentionally creating the same job twice?"
   },
   {
     "id": "q06",
-    "type": "paraphrase",
-    "question": "What details about a digital file help people locate it more easily?"
+    "type": "confusable_exact_term",
+    "question": "Which identifier connects log entries across services but does not stop duplicate execution?"
   },
   {
     "id": "q07",
-    "type": "paraphrase",
-    "question": "What can happen if neighbouring text sections repeat too much of the same content?"
+    "type": "zero_overlap_paraphrase",
+    "question": "What descriptive information helps organize and filter a record without being the record's main substantive content?"
   },
   {
     "id": "q08",
-    "type": "paraphrase",
-    "question": "How can a team make it easier for a future developer to understand why a setting was chosen?"
+    "type": "near_miss",
+    "question": "How does a controlled topic vocabulary differ from a flexible label that users can attach freely?"
   },
   {
     "id": "q09",
     "type": "exact_term",
-    "question": "What does the term 'hybrid search' mean in the document?"
+    "question": "What does NOT_COLLECTED mean, and why must it not be treated as a measured zero?"
   },
   {
     "id": "q10",
-    "type": "exact_term",
-    "question": "Which term describes information such as a document's title, author, date, language, and page number?"
+    "type": "multi_chunk",
+    "question": "What information describes where a record originated, and what separate concept describes the ordered processing steps it passed through?"
   },
   {
     "id": "q11",
     "type": "exact_term",
-    "question": "What is the term for dividing a long document into smaller sections before indexing it?"
+    "question": "In BM25, which parameter controls the strength of document-length normalization?"
   },
   {
     "id": "q12",
-    "type": "exact_term",
-    "question": "What does the document call a separate copy of information kept to recover from loss or accidental deletion?"
+    "type": "confusable_exact_term",
+    "question": "Which ranking method combines positions from lexical and semantic result lists without directly adding their raw scores?"
   },
   {
     "id": "q13",
-    "type": "multi_chunk",
-    "question": "Compare keyword search, semantic search, and hybrid search, including what information each method uses to find documents."
-  },
-  {
-    "id": "q14",
-    "type": "multi_chunk",
-    "question": "Compare ordinary storage and backup, and explain what a dependable backup plan needs to specify."
+    "type": "zero_overlap_paraphrase",
+    "question": "Why can a passage with a high vector similarity score still be an incorrect result for a user's information need?"
   },
   {
     "id": "q15",
     "type": "multi_chunk",
-    "question": "What practices does the document recommend for evaluating an approach or experiment and recording the conclusions?"
+    "question": "Which evaluation measures reward finding relevant passages, and which one specifically rewards finding the first relevant passage early?"
   },
   {
     "id": "q16",
-    "type": "unanswerable",
-    "question": "What exact percentage of a household's annual energy use comes from heating and cooling?"
+    "type": "zero_overlap_paraphrase",
+    "question": "What evaluation bias can occur when human reviewers judge only the passages found by one retrieval system?"
   },
   {
     "id": "q17",
+    "type": "conceptual",
+    "question": "What must remain unchanged when comparing two retrieval methods so that a metric difference can be attributed to the methods?"
+  },
+  {
+    "id": "q18",
+    "type": "exact_term",
+    "question": "What does RPO measure for a recovery plan?"
+  },
+  {
+    "id": "q19",
+    "type": "confusable_exact_term",
+    "question": "Which recovery objective describes the maximum acceptable service restoration time rather than the acceptable amount of lost data?"
+  },
+  {
+    "id": "q20",
+    "type": "near_miss",
+    "question": "Why is maintaining multiple live copies not sufficient protection against accidental deletion or logical corruption?"
+  },
+  {
+    "id": "q21",
+    "type": "exact_term",
+    "question": "Which MRS backup policy identifier specifies the weekly full backup and six-hour incremental schedule?"
+  },
+  {
+    "id": "q22",
+    "type": "zero_overlap_paraphrase",
+    "question": "What operational measurement captures how long a task sits waiting before a worker starts it?"
+  },
+  {
+    "id": "q23",
+    "type": "confusable_exact_term",
+    "question": "Which metric measures execution duration, as distinct from time spent waiting in the queue?"
+  },
+  {
+    "id": "q24",
+    "type": "near_miss",
+    "question": "What is the difference between a record of a security-relevant action and a message written to help engineers debug runtime behavior?"
+  },
+  {
+    "id": "q26",
+    "type": "exact_term",
+    "question": "Which MRS response code indicates that a request exceeded the per-key request-frequency limit?"
+  },
+  {
+    "id": "q27",
+    "type": "confusable_exact_term",
+    "question": "How does structural schema validation differ from checking whether a value makes sense under the business rules?"
+  },
+  {
+    "id": "q28",
     "type": "unanswerable",
-    "question": "Who is the named original creator of the software library discussed in the document?"
+    "question": "What commercial cloud provider hosts the Meridian Research Service?"
+  },
+  {
+    "id": "q29",
+    "type": "unanswerable",
+    "question": "Who is the chief executive officer of the Meridian Research Service?"
   }
 ]

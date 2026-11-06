@@ -2,6 +2,7 @@
 from typing import Callable
 
 from langchain_core.vectorstores import VectorStore
+from app.retrieval.bm25 import BM25Retriever
 
 from app.config import Settings
 from app.retrieval.base import Retriever
@@ -18,6 +19,7 @@ Instead of if else we are using dict to get the particukar retriver in get_retri
 """
 _REGISTRY: dict[str, Builder] = {
     "dense": lambda settings, store: DenseRetriever(store),
+    "bm25": lambda settings, store: BM25Retriever(store, settings.bm25_remove_stopwords),
 }
 
 

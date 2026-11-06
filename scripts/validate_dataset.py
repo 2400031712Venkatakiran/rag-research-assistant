@@ -36,6 +36,6 @@ def main() -> None:
 
     print(f"\n{len(data)} questions, {answerable} with labels, {problems} problem(s)")
 
-
+###nDCG doesn't change the ranking. It measures how well your retriever ranked the chunks.
 if __name__ == "__main__":
     main()

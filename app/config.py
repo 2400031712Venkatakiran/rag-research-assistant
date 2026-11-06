@@ -29,7 +29,8 @@ class Settings(BaseSettings):
     embedding_model: str = "text-embedding-3-small"
     llm_provider: str = "openai"
     llm_model: str = "gpt-4o-mini"
-
+    # BM25
+    bm25_remove_stopwords: bool = False
     log_level: str = "INFO"
 
 

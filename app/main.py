@@ -30,10 +30,13 @@ def get_store():
     return get_vectorstore(settings, build_embeddings(settings))
 
 
-def get_retriever_dep(
-    settings: Settings = Depends(get_settings), store=Depends(get_store)
-) -> Retriever:
-    return get_retriever(settings, store)  # cheap: just wraps the store
+@lru_cache
+def _build_retriever() -> Retriever:
+    return get_retriever(get_settings(), get_store())
+
+
+def get_retriever_dep() -> Retriever:
+    return _build_retriever()
 
 
 @lru_cache
